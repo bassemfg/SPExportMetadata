@@ -38,6 +38,14 @@ namespace ConsoleApp1
                         foreach (SPItem item in list.Items)
                         {
 
+                            if (j == 0)
+                            {
+                                sbFields.Append("SourcePath");
+                                sbFields.Append(',');
+                            }
+
+                            sbVals.Append(item["URL Path"].ToString());
+                            sbVals.Append(',');
 
                             foreach (SPField field in item.Fields)
                             {
