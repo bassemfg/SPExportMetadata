@@ -17,8 +17,7 @@ namespace ConsoleApp1
             string RootSiteCollection = System.Configuration.ConfigurationSettings.AppSettings["RootSiteCollection"];
             //int i = 0;
             int j = 0;
-            Microsoft.SharePoint.SPSite siteColl = //new SPSite(@"https://ic3.icat.org.au/group/catprojects/");
-                new SPSite(RootSiteCollection);
+            Microsoft.SharePoint.SPSite siteColl = new SPSite(RootSiteCollection);
             StringBuilder sbFields = new StringBuilder();
             StringBuilder sbVals = new StringBuilder();
 
