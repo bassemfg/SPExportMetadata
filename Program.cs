@@ -25,18 +25,20 @@ namespace ConsoleApp1
 
             foreach (SPWeb web in siteColl.AllWebs)
             {
+                Console.WriteLine("Processing site "+web.Url);
                 sbFields.Length = 0;
                 
 
                 foreach (SPList list in web.Lists)
                 {
+                    Console.WriteLine("Processing list " + list.ID);
                     sbVals.Length = 0;
                     if (list.BaseType == SPBaseType.DocumentLibrary && list.Hidden == false)
                     {
                         j = 0;
                         foreach (SPItem item in list.Items)
                         {
-
+                            Console.WriteLine("Processing item " + item.ID);
                             if (j == 0)
                             {
                                 sbFields.Append("SourcePath");
