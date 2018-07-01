@@ -45,7 +45,7 @@ namespace ConsoleApp1
                                 sbFields.Append(',');
                             }
 
-                            sbVals.Append(item["URL Path"].ToString());
+                            sbVals.Append(item["URL Path"].ToString().Replace(',',' '));
                             sbVals.Append(',');
 
                             foreach (SPField field in item.Fields)
@@ -61,7 +61,7 @@ namespace ConsoleApp1
                                         }
 
                                         if (!string.IsNullOrEmpty(item[field.ToString()].ToString()))
-                                            sbVals.Append(item[field.ToString()].ToString());
+                                            sbVals.Append(item[field.ToString()].ToString()).Replace(',', ' ');
                                         else
                                             sbVals.Append(string.Empty);
 
