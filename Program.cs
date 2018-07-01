@@ -52,15 +52,19 @@ namespace ConsoleApp1
                             {
                                 try
                                 {
-                                    if (field.Hidden == false && field.Sealed == false)
+                                    if (field.Hidden == false && field.Sealed == false && !string.IsNullOrEmpty(field.ToString()))
                                     {
                                         if (j == 0)
                                         {
                                             sbFields.Append(field.ToString());
                                             sbFields.Append(',');
                                         }
-                                        if (item[field.ToString()] != null)
+
+                                        if (!string.IsNullOrEmpty(item[field.ToString()].ToString()))
                                             sbVals.Append(item[field.ToString()].ToString());
+                                        else
+                                            sbVals.Append(string.Empty);
+
                                         sbVals.Append(',');
 
                                     }
