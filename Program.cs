@@ -61,7 +61,7 @@ namespace ConsoleApp1
                                         }
 
                                         if (!string.IsNullOrEmpty(item[field.ToString()].ToString()))
-                                            sbVals.Append(item[field.ToString()].ToString()).Replace(',', ' ');
+                                            sbVals.Append(item[field.ToString()].ToString().Replace(',', ' '));
                                         else
                                             sbVals.Append(string.Empty);
 
