@@ -52,7 +52,7 @@ namespace ConsoleApp1
                             {
                                 try
                                 {
-                                    if (field.Hidden == false && field.Sealed == false && !string.IsNullOrEmpty(field.ToString()))
+                                    if (field.Hidden == false && field.Sealed == false )
                                     {
                                         if (j == 0)
                                         {
@@ -63,7 +63,7 @@ namespace ConsoleApp1
                                         if (!string.IsNullOrEmpty(item[field.ToString()].ToString()))
                                             sbVals.Append(item[field.ToString()].ToString().Replace(',', ' '));
                                         else
-                                            sbVals.Append(string.Empty);
+                                            sbVals.Append(" ");
 
                                         sbVals.Append(',');
 
