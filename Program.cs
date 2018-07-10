@@ -87,7 +87,6 @@ namespace ConsoleApp1
                         sbFields.Append(sbVals.ToString());
                         sbFields.Append(@"
 ");
-                    
                 }
 
                 sw = new StreamWriter(@"c:\metadata_" + web.Url.Substring(web.Url.LastIndexOf(@"/")+1) + @".csv");
