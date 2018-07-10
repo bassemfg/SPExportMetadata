@@ -97,4 +97,3 @@ foreach($webApp in $WebApps)
     
  
 
-#Read more: http://www.sharepointdiary.com/2012/06/iterate-through-webapps-sitecollections-sites-lists-listitems.html#ixzz5KsMoM64m
