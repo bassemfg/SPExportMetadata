@@ -168,7 +168,6 @@ C:\Users\byacoube\source\repos\ConsoleApp1\ConsoleApp1\SPExportMetadata\bin\x64\
 C:\Users\byacoube\source\repos\ConsoleApp1\ConsoleApp1\SPExportMetadata\bin\x64\Debug\ru\System.Spatial.resources.dll
 C:\Users\byacoube\source\repos\ConsoleApp1\ConsoleApp1\SPExportMetadata\bin\x64\Debug\zh-Hans\System.Spatial.resources.dll
 C:\Users\byacoube\source\repos\ConsoleApp1\ConsoleApp1\SPExportMetadata\bin\x64\Debug\zh-Hant\System.Spatial.resources.dll
-C:\Users\byacoube\source\repos\ConsoleApp1\ConsoleApp1\SPExportMetadata\obj\x64\Debug\ConsoleApp1.csprojAssemblyReference.cache
 C:\Users\byacoube\source\repos\ConsoleApp1\ConsoleApp1\SPExportMetadata\obj\x64\Debug\ConsoleApp1.exe.config
 C:\Users\byacoube\source\repos\ConsoleApp1\ConsoleApp1\SPExportMetadata\obj\x64\Debug\ConsoleApp1.csproj.CoreCompileInputs.cache
 C:\Users\byacoube\source\repos\ConsoleApp1\ConsoleApp1\SPExportMetadata\obj\x64\Debug\ConsoleApp1.csproj.CopyComplete

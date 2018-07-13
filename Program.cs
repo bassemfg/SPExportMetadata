@@ -43,9 +43,15 @@ namespace ConsoleApp1
                             {
                                 sbFields.Append("SourcePath");
                                 sbFields.Append(',');
+                                sbFields.Append("UniqueId");
+                                sbFields.Append(',');
+
                             }
 
                             sbVals.Append(item["URL Path"].ToString().Replace(',',' '));
+                            sbVals.Append(',');
+
+                            sbVals.Append(item["UniqueId"].ToString());
                             sbVals.Append(',');
 
                             foreach (SPField field in item.Fields)
