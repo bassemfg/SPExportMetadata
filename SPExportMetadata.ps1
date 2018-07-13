@@ -31,9 +31,13 @@ foreach($webApp in $WebApps)
                             {
                                 [void]$sbFields.Append("SourcePath");
                                 [void]$sbFields.Append(',');
+								[void]$sbFields.Append("UniqueId");
+                                [void]$sbFields.Append(',');
                             }
 
                             [void]$sbVals.Append($item["URL Path"].Replace(',',' '));
+                            [void]$sbVals.Append(',');
+							[void]$sbVals.Append($item["UniqueId"].Replace(',',' '));
                             [void]$sbVals.Append(',');
 
 
