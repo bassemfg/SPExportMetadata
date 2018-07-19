@@ -1,4 +1,4 @@
-﻿Add-PSSnapin "Microsoft.SharePoint.Powershell"
+﻿
 Add-PSSnapin "Microsoft.SharePoint.Powershell"
 
 # Get All Web Applications 
