@@ -41,7 +41,7 @@ foreach($webApp in $WebApps)
                             [void]$sbVals.Append(',');
 							[void]$sbVals.Append($item["UniqueId"]);
                             [void]$sbVals.Append(',');
-							[void]$sbVals.Append($SPWeb.Url);
+							[void]$sbVals.Append($SPweb.Url);
                             [void]$sbVals.Append(',');
 
 
