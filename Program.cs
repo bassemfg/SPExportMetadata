@@ -49,6 +49,8 @@ namespace ConsoleApp1
                                     sbFields.Append(',');
                                     sbFields.Append("UniqueId");
                                     sbFields.Append(',');
+                                    sbFields.Append("SiteURL");
+                                    sbFields.Append(',');
 
                                 }
 
@@ -56,6 +58,10 @@ namespace ConsoleApp1
                                 sbVals.Append(',');
 
                                 sbVals.Append(item["UniqueId"].ToString());
+                                sbVals.Append(',');
+
+
+                                sbVals.Append(web.Url);
                                 sbVals.Append(',');
 
                                 foreach (SPField field in item.Fields)
